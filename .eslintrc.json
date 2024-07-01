@@ -1,0 +1,10 @@
+{
+  "extends": "next/core-web-vitals",
+  "plugins": ["simple-import-sort"],
+  "rules": {
+    "simple-import-sort/imports": "warn",
+    "react/no-unescaped-entities": 0,
+    "@next/next/no-img-element": 0,
+    "jsx-a11y/alt-text": 0
+  }
+}
