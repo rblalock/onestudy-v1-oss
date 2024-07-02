@@ -109,11 +109,11 @@ Each org can issue their own API keys. How it works for them:
 
 The purpose for this is for the Respondent App, which is a separate app that interviewees interact with.
 
-#### For One Study Keys
+#### For API Keys
 
 These need to be provisioned inside of Unkey.dev.
 
-You can quickly create an API key for the right environment here: https://unkey.dev/app/apis. Give it:
+You can quickly create an API key for the right environment here: <https://unkey.dev/app/apis>. Give it:
 
 - A name
 - A ratelimit. e.g. 100 requests per second

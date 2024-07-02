@@ -44,8 +44,8 @@ export default function LinkInterview(props: InterviewLinkProps) {
       <div className="absolute inset-x-0 bottom-0">
         {/* Footer */}
         <div className="flex items-center justify-between m-5 text-xs text-gray-400">
-          <a href="https://onestudy.ai">
-            Powered by <strong>OneStudy</strong>
+          <a href="https://shopmonkey.io">
+            Powered by <strong>Shopmonkey</strong>
           </a>
         </div>
       </div>

@@ -33,38 +33,6 @@ const SpotlightSection = () => {
 
       <div className="h-[40rem] lg:mb-48 w-full flex md:items-center md:justify-center antialiased relative overflow-hidden text-white">
         <div className="p-4 lg:mt-32 max-w-7xl mx-auto relative z-10 w-full lg:pt-20 md:pt-0">
-          <h1 className="[text-shadow:_4px_4px_1px_rgb(0_0_0_/_40%)] py-5 text-3xl md:text-4xl lg:text-7xl font-bold text-left lg:text-center">
-            Open Source <br />
-            <span
-              suppressHydrationWarning
-              className="[text-shadow:_1px_1px_1px_rgb(0_0_0_/_100%)] animate-fadeInShadow bg-clip-text text-transparent bg-gradient-to-b from-blue-50 to-blue-400 bg-opacity-50"
-            >
-              Customer Research
-            </span>
-          </h1>
-
-          <p className="mt-10 mx-auto font-bold text-xl lg:text-3xl text-white text-left lg:text-center">
-            <span className="font-bold leading-normal text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-red-600">
-              Better
-            </span>{" "}
-            than a survey
-          </p>
-
-          <p className="mt-5 lg:mt-1 mx-auto font-bold text-xl lg:text-3xl text-white text-left lg:text-center">
-            <span className="font-bold leading-normal text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-red-600">
-              Cheaper
-            </span>{" "}
-            than in-person research
-          </p>
-
-          <p className="mt-5 lg:mt-1 mx-auto font-bold text-xl lg:text-3xl text-white text-left lg:text-center">
-            Get to the&nbsp;
-            <span className=" font-bold leading-normal text-transparent bg-clip-text bg-gradient-to-br from-yellow-400 to-red-600">
-              "Why"
-            </span>{" "}
-            in minutes not months
-          </p>
-
           <div className="md:flex justify-center mt-10 lg:pb-10">
             <MovingButton
               borderRadius="1.75rem"
@@ -72,13 +40,13 @@ const SpotlightSection = () => {
               className="text-xl font-bold bg-slate-100 text-slate-900"
               borderClassName="hidden"
               onClick={() => {
-                logEvent("go_to_docs", {
+                logEvent("go_to_studies", {
                   position: "hero",
                 });
-                window.open("https://docs.onestudy.ai");
+                window.open("/studies");
               }}
             >
-              Visit the docs
+              Login
             </MovingButton>
           </div>
         </div>

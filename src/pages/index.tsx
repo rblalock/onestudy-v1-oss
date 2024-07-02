@@ -17,24 +17,8 @@ const MainPage = () => {
   return (
     <>
       <Head>
-        <title>One Study - Qualitative research using AI.</title>
-        <meta
-          name="description"
-          content="One Study is a qualitative research tool that uses AI to help you find insights in your customer conversations."
-          key="desc"
-        />
-        <meta
-          property="og:title"
-          content="One Study - Qualitative research using AI."
-        />
-        <meta
-          property="og:description"
-          content="One Study is a qualitative research tool that uses AI to help you find insights in your customer conversations."
-        />
-        <meta
-          property="og:image"
-          content="/api/og?title=Qualitative%20research%20using%20AI"
-        />
+        <title>Shopmonkey Research</title>
+        <meta name="description" content="" key="desc" />
       </Head>
 
       <Header contentType={"default"} />

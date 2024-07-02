@@ -220,8 +220,8 @@ export default function LinkInterview(props: StudyLinkProps) {
         </div>
 
         <div className="mx-auto w-full flex justify-center mt-10 mb-5 text-xs text-gray-400">
-          <a href="https://onestudy.ai">
-            Powered by <strong>OneStudy</strong>
+          <a href="https://shopmonkey.io">
+            Powered by <strong>Shopmonkey</strong>
           </a>
         </div>
       </div>

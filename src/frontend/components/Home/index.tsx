@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { Button } from "@/frontend/components/ui/button";
 import { ModeToggle } from "@/frontend/components/Utils/ThemeProvider";
-import WhiteLogo from "$/assets/icons/logo_white.svg";
+import WhiteLogo from "$/assets/icons/sm_face.svg";
 
 import { afterOrgChange } from "../Utils/Organization";
 
@@ -18,12 +18,7 @@ export const Header = (props: { contentType: HomeContentType }) => {
       <div className="container flex h-16 items-center justify-between py-4">
         <nav className="flex items-center space-x-4 lg:space-x-8 text-sm -mb-1">
           <Link className="items-center space-x-1 flex" href="/">
-            <Image
-              priority
-              src={WhiteLogo}
-              alt="One Study - Human Research"
-              className="w-40"
-            />
+            <Image priority src={WhiteLogo} alt="" className="w-10 h-10" />
           </Link>
         </nav>
 
@@ -97,37 +92,8 @@ export const Footer = (props: { contentType: HomeContentType }) => {
         <div className="max-full px-6 py-12 space-x-3 md:flex md:items-center md:justify-between lg:px-8">
           <div className="">
             <p className="text-center text-xs leading-5 text-gray-400">
-              &copy; {new Date().getFullYear()} One Study, Inc. All rights
+              &copy; {new Date().getFullYear()} Shopmonkey, Inc. All rights
               reserved.
-            </p>
-          </div>
-
-          <div className="flex items-center justify-center mt-5 lg:mt-0 space-x-4">
-            <p className="text-center text-xs leading-5 text-gray-400">
-              <a
-                target="_blank"
-                href="https://app.getterms.io/view/xCN5z/privacy/en-us"
-              >
-                Privacy Policy
-              </a>
-            </p>
-
-            <p className="text-center text-xs leading-5 text-gray-400">
-              <a
-                target="_blank"
-                href="https://app.getterms.io/view/xCN5z/tos/en-us"
-              >
-                Terms of service
-              </a>
-            </p>
-
-            <p className="text-center text-xs leading-5 text-gray-400">
-              <a
-                target="_blank"
-                href="https://app.getterms.io/view/xCN5z/aup/en-us"
-              >
-                Acceptable use
-              </a>
             </p>
           </div>
         </div>
